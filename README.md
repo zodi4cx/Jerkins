@@ -9,7 +9,7 @@
 ¿Qué es Jerkins?
 ======
 
-**Jerkins** es una aplicación que explota una vulnerabilidad basada en una mala configuración de privilegios en los servidores *Jenkins*. En concreto, se aprovecha de que el administrador permite acceder de forma pública al panel *Manage Jenkins*, el cual cuenta con una consola con la cual se puede lograr ejecución de código en el servidor.
+**Jerkins** es una aplicación que explota una vulnerabilidad basada en una mala configuración de privilegios en los servidores *Jenkins*. En concreto, se aprovecha de que el administrador permite acceder de forma pública al panel *Manage Jenkins*, el cual cuenta con una consola con la que se puede lograr ejecución de código en el servidor.
 
 Este script encuentra a través de la plataforma *Shodan* aquellas máquinas que sustenten un servidor Jenkins con dicha configuración de privacidad, permitiendo así listar servidores que presentan esta vulnerabilidad. Una vez acabado el escaneo, se le presenta al usuario la posibilidad de entablar una shell HTTP con cualquiera de las direcciones halladas.
 
